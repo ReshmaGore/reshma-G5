@@ -20,7 +20,9 @@ System.setProperty("webdriver.chrome.driver", "D:\\16th_july_selenium\\chromedri
           
           driver.findElement(By.name("q")).sendKeys("i phone 14 pro max");
           
-          driver.findElement(By.xpath("//button[@type='submit']")).click();         
+          driver.findElement(By.xpath("//button[@type='submit']")).click();  
+          
+          
 
 	}
 
